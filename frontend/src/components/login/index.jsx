@@ -4,42 +4,42 @@ export default function Login() {
     return (
         <>
             <LoginWrapper>
-                <div class="container">
-                    <div class="screen">
-                        <div class="screen__content">
-                            <form class="login">
-                                <div class="login__field">
-                                    <i class="login__icon fas fa-user"></i>
+                <div className="container">
+                    <div className="screen">
+                        <div className="screen__content">
+                            <form className="login">
+                                <div className="login__field">
+                                    <i className="login__icon fas fa-user"></i>
                                     <input
                                         type="email"
-                                        class="login__input"
+                                        className="login__input"
                                         placeholder="Email"
                                     />
                                 </div>
-                                <div class="login__field">
-                                    <i class="login__icon fas fa-lock"></i>
+                                <div className="login__field">
+                                    <i className="login__icon fas fa-lock"></i>
                                     <input
                                         type="password"
-                                        class="login__input"
+                                        className="login__input"
                                         placeholder="Senha"
                                     />
                                 </div>
-                                <button class="button login__submit">
-                                    <span class="button__text">
+                                <button className="button login__submit">
+                                    <span className="button__text">
                                         Acessar Sistema
                                     </span>
-                                    <i class="button__icon fas fa-chevron-right"></i>
+                                    <i className="button__icon fas fa-chevron-right"></i>
                                 </button>
                             </form>
-                            <div class="social-login">
+                            <div className="social-login">
                                 <h3>Spinelli Controll</h3>
                             </div>
                         </div>
-                        <div class="screen__background">
-                            <span class="screen__background__shape screen__background__shape4"></span>
-                            <span class="screen__background__shape screen__background__shape3"></span>
-                            <span class="screen__background__shape screen__background__shape2"></span>
-                            <span class="screen__background__shape screen__background__shape1"></span>
+                        <div className="screen__background">
+                            <span className="screen__background__shape screen__background__shape4"></span>
+                            <span className="screen__background__shape screen__background__shape3"></span>
+                            <span className="screen__background__shape screen__background__shape2"></span>
+                            <span className="screen__background__shape screen__background__shape1"></span>
                         </div>
                     </div>
                 </div>
